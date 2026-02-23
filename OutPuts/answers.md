@@ -267,11 +267,22 @@ ArgoCD automatically updates cluster.
 # 🗑️ Delete Deployment
 * Delete app:
 >kubectl delete application myapp-dev -n argocd
-
+```
+PS C:\Users\repo\DevOps\devops-course\class8 - ArgoCD\Home Assignment\helm-gitops-demo> kubectl delete application myapp-dev -n argocd
+application.argoproj.io "myapp-dev" deleted from argocd namespace
+```
 * Delete namespace:
 >kubectl delete namespace dev
+```
+PS C:\Users\repo\DevOps\devops-course\class8 - ArgoCD\Home Assignment\helm-gitops-demo> kubectl delete namespace dev
+namespace "dev" deleted
+```
 
 * Delete ArgoCD:
 >kubectl delete namespace argocd
+```
+PS C:\Users\repo\DevOps\devops-course\class8 - ArgoCD\Home Assignment\helm-gitops-demo> kubectl delete namespace argocd
+namespace "argocd" deleted
+```
 
 
